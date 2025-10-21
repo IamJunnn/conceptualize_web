@@ -28,7 +28,7 @@
         extend: {
           colors: {
             brand: '#3E517A',
-            accent: '#BC82E2',
+            accent: '#64c8ca',
             surface: '#1e1e1e',
             surface2: '#252526'
           },
@@ -117,46 +117,68 @@
       </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-[rgba(255,255,255,0.02)] p-6 rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition">
-          <h3 class="font-semibold text-[#d4d4d4] mb-2">🧭 Visual Discovery</h3>
-          <p class="text-[#9b9b9b] text-sm leading-relaxed">
-            See all your notes as an <strong>interactive force-directed graph</strong>. Explore relationships between ideas, drag to navigate, and double-click nodes to open notes instantly.
-          </p>
+        <div class="bg-[rgba(255,255,255,0.02)] rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition overflow-hidden">
+          <img src="/visual.png" alt="Visual Discovery" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-[#d4d4d4] mb-2">🧭 Visual Discovery</h3>
+            <p class="text-[#9b9b9b] text-sm leading-relaxed">
+              See all your notes as an <strong>interactive force-directed graph</strong>. Explore relationships between ideas, drag to navigate, and double-click nodes to open notes instantly.
+            </p>
+          </div>
         </div>
 
-        <div class="bg-[rgba(255,255,255,0.02)] p-6 rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition">
-          <h3 class="font-semibold text-[#d4d4d4] mb-2">🔗 Natural Linking</h3>
-          <p class="text-[#9b9b9b] text-sm leading-relaxed">
-            Connect ideas effortlessly using simple <code class="text-accent font-mono">[[double brackets]]</code>. Conceptualize auto-suggests related notes based on both text and meaning.
-          </p>
+        <div class="bg-[rgba(255,255,255,0.02)] rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition overflow-hidden">
+          <img src="/naturalLinking.png" alt="Natural Linking" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-[#d4d4d4] mb-2">🔗 Natural Linking</h3>
+            <p class="text-[#9b9b9b] text-sm leading-relaxed">
+              Connect ideas effortlessly using simple <code class="text-accent font-mono">[[double brackets]]</code>. Conceptualize auto-suggests related notes based on both text and meaning.
+            </p>
+          </div>
         </div>
 
-        <div class="bg-[rgba(255,255,255,0.02)] p-6 rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition">
-          <h3 class="font-semibold text-[#d4d4d4] mb-2">🧠 Coming Soon: AI Insight Engine</h3>
-          <p class="text-[#9b9b9b] text-sm leading-relaxed">
-            Conceptualize doesn't just show connections—it *finds meaning in them.* Automatic Topic Detection, Cross-Domain Connections, and more.
-          </p>
+        <div class="bg-[rgba(255,255,255,0.02)] rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition overflow-hidden">
+          <div class="w-full h-48 bg-gradient-to-br from-brand to-accent flex items-center justify-center">
+            <span class="text-6xl">🧠</span>
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-[#d4d4d4] mb-2">Coming Soon: AI Insight Engine</h3>
+            <p class="text-[#9b9b9b] text-sm leading-relaxed">
+              Conceptualize doesn't just show connections—it finds meaning in them. Automatic Topic Detection, Cross-Domain Connections, and more.
+            </p>
+          </div>
         </div>
 
-        <div class="bg-[rgba(255,255,255,0.02)] p-6 rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition">
-          <h3 class="font-semibold text-[#d4d4d4] mb-2">🔒 Private by Design</h3>
-          <p class="text-[#9b9b9b] text-sm leading-relaxed">
-            Conceptualize operates directly on your computer's folder structure. No cloud, no account, no tracking. You have 100% ownership of your knowledge.
-          </p>
+        <div class="bg-[rgba(255,255,255,0.02)] rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition overflow-hidden">
+          <img src="/private.png" alt="Private by Design" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-[#d4d4d4] mb-2">🔒 Private by Design</h3>
+            <p class="text-[#9b9b9b] text-sm leading-relaxed">
+              Conceptualize operates directly on your computer's folder structure. No cloud, no account, no tracking. You have 100% ownership of your knowledge.
+            </p>
+          </div>
         </div>
 
-        <div class="bg-[rgba(255,255,255,0.02)] p-6 rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition">
-          <h3 class="font-semibold text-[#d4d4d4] mb-2">📝 Open by Default</h3>
-          <p class="text-[#9b9b9b] text-sm leading-relaxed">
-            Your notes are plain-text <code class="text-accent font-mono">.md</code> files. They're portable, future-proof, and can be opened with any text editor—no proprietary formats, ever.
-          </p>
+        <div class="bg-[rgba(255,255,255,0.02)] rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition overflow-hidden">
+          <div class="w-full h-48 bg-gradient-to-br from-brand to-accent flex items-center justify-center">
+            <span class="text-6xl">📝</span>
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-[#d4d4d4] mb-2">Open by Default</h3>
+            <p class="text-[#9b9b9b] text-sm leading-relaxed">
+              Your notes are plain-text <code class="text-accent font-mono">.md</code> files. They're portable, future-proof, and can be opened with any text editor—no proprietary formats, ever.
+            </p>
+          </div>
         </div>
 
-        <div class="bg-[rgba(255,255,255,0.02)] p-6 rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition">
-          <h3 class="font-semibold text-[#d4d4d4] mb-2">🗂 Structured Simplicity</h3>
-          <p class="text-[#9b9b9b] text-sm leading-relaxed">
-            Organize your notes in folders or themes. Drag and drop files, create nested ideas, and switch freely between list, editor, and graph views.
-          </p>
+        <div class="bg-[rgba(255,255,255,0.02)] rounded-xl border border-[rgba(255,255,255,0.05)] hover:border-[rgba(76,103,168,0.3)] transition overflow-hidden">
+          <img src="/structured.png" alt="Structured Simplicity" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-[#d4d4d4] mb-2">🗂 Structured Simplicity</h3>
+            <p class="text-[#9b9b9b] text-sm leading-relaxed">
+              Organize your notes in folders or themes. Drag and drop files, create nested ideas, and switch freely between list, editor, and graph views.
+            </p>
+          </div>
         </div>
       </div>
     </section>
