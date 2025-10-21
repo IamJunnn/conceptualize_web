@@ -3,7 +3,13 @@
     "allow": [
       "Bash(test:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit - Conceptualize landing page ready for deployment\n\n- Added index.html with updated download links\n- Replaced mockup with actual Conceptualize screenshot\n- Added Vercel configuration\n- Structured for static site deployment\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(npx serve:*)"
     ],
     "deny": [],
     "ask": []
