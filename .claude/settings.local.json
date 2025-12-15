@@ -9,7 +9,9 @@
       "Bash(git branch:*)",
       "Bash(git push:*)",
       "Bash(git commit:*)",
-      "Bash(npx serve:*)"
+      "Bash(npx serve:*)",
+      "Bash(dir:*)",
+      "Bash(git -c credential.helper= push)"
     ],
     "deny": [],
     "ask": []
