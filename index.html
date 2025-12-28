@@ -148,9 +148,10 @@
           <details class="text-sm text-[#9b9b9b] max-w-md">
             <summary class="cursor-pointer hover:text-[#d4d4d4]">🍎 Mac users: First time opening?</summary>
             <div class="mt-2 p-3 bg-surface2 rounded-lg text-left">
-              <p class="mb-2">If you see "Apple could not verify", open Terminal and run:</p>
-              <code class="block bg-[#1a1a1a] px-3 py-2 rounded text-xs text-accent">xattr -cr /Applications/conceptualize.app</code>
-              <p class="mt-2 text-xs">Then double-click the app to open.</p>
+              <p class="mb-2">After installing, open Terminal and run:</p>
+              <code class="block bg-[#1a1a1a] px-3 py-2 rounded text-xs text-accent mb-2">sudo xattr -rd com.apple.quarantine /Applications/conceptualize.app</code>
+              <code class="block bg-[#1a1a1a] px-3 py-2 rounded text-xs text-accent">open /Applications/conceptualize.app</code>
+              <p class="mt-2 text-xs">Enter your Mac password when prompted. The app will open!</p>
             </div>
           </details>
         </div>
