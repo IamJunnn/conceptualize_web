@@ -22,3 +22,6 @@ __pycache__/
 
 # Demo folder (if you don't want to deploy this)
 Conceptualize_Demo/
+
+# Local Claude Code settings
+.claude/settings.local.json
